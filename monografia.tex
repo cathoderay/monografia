@@ -1,0 +1,52 @@
+\documentclass[12pt, a4paper, onecolumn]{report}
+%  \usepackage[english, brazilian, portuges]{babel}
+  \usepackage[brazilian]{babel}
+  \usepackage[T1]{fontenc}
+  \usepackage{ae}
+  \usepackage[utf8]{inputenc}
+  \usepackage{graphicx, subfig}
+  \usepackage{algorithm, algorithmic}
+  \usepackage{listings}
+  \usepackage{amsmath}
+  \usepackage{amsthm}
+  \usepackage{listings}
+  \usepackage{setspace}
+  \usepackage{indentfirst}
+  \usepackage{lscape}
+  \usepackage[toc,page]{appendix}
+  \usepackage[a4paper]{geometry}
+  \geometry{hmargin={3cm,2cm}}
+  \geometry{vmargin={3cm,2cm}}
+  \newtheorem{mprocessamentoydef}{Definição}
+  \graphicspath{{images//}}
+  \renewcommand{\appendixtocname}{Apêndices}
+  \renewcommand{\appendixpagename}{Apêndices}
+  \renewcommand{\listalgorithmname}{Lista de pseudo-algoritmos}
+
+
+\begin{document}
+\include{texto/capa}
+\include{texto/assinaturas}
+\singlespace
+\include{texto/agradecimentos}
+\include{texto/resumo}
+\include{texto/abstract}
+\listoffigures
+\listoftables
+\listofalgorithms
+\tableofcontents
+
+\onehalfspacing
+\include{texto/introducao}
+\include{texto/series-temporais}
+\include{texto/pip}
+\include{texto/implementacao}
+\include{texto/holmes}
+\include{texto/conclusao}
+\appendix
+\include{texto/apendice}
+
+\bibliographystyle{unsrt}
+\bibliography{references}
+
+\end{document}

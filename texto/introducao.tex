@@ -1,0 +1,63 @@
+\chapter{Introdução}
+\label{chap:introducao}
+
+Manter sistemas complexos em pleno funcionamento e harmonia requer constante monitoração de suas partes. Datacenters, por menores que sejam, precisam ser constantemente monitorados para garantir que seus equipamentos e serviços estejam disponíveis e em correto funcionamento. Nesses ambientes, subutilização de recursos, períodos de inatividade ou falhas em dispositivos são situações indesejáveis que podem levar a perdas de faturamento significativas por parte de seus mantenedores.
+
+Para evitar tais riscos, medições sobre equipamentos e serviços precisam ser coletadas continuamente com o objetivo de apoiar a tomada de decisão, tanto em níveis micro, onde simples mudanças de dispositivos são agendadas, até reestruturações em arquiteturas de serviços. 
+
+Datacenters podem ser vistos como verdadeiras ``máquinas'' de produção de séries temporais. Como medições são realizadas com frequência, é natural observar nesse contexto séries temporais com alta dimensionalidade representadas por \textit{datasets} de muitos gibibytes de aglomerados numéricos semi-estruturados. É desejável, portanto, que se tenha um meio apropriado de visualização de dados e entre outras formas de leitura, a visualização de gráficos desempenha um papel importante.
+
+O propósito deste trabalho é auxiliar operadores de datacenters na recuperação e visualização de gráficos, que representam a evolução do comportamento de seus equipamentos e serviços, e para tanto foi buscada inspiração em um algoritmo utilizado para o reconhecimento de padrões em séries temporais do mercado financeiro. 
+
+O algoritmo \textit{Perceptually Important Points}\footnote{Preferiu-se o termo \textit{Perceptually Important Points} em sua língua inglesa por ser mais conhecido dessa forma na literatura, além de oferecer o mneumônico e acrônimo PIP.} ao mesmo tempo que contribui para a redução de dimensionalidade, fornece um mecanismo automatizado de eleição dos pontos mais importantes de uma série temporal para um observador humano, favorecendo, deste modo, sua visualização e tráfego pela rede.
+
+A implementação do algoritmo e sua implantação em um sistema de monitoração de datacenters já existente\footnote{O software citado recebe o nome de HOLMES e será apresentado no capítulo \ref{chap:holmes}.}, hoje utilizado por grandes datacenters do Brasil, constituem o cerne deste texto. 
+
+Nas próximas seções são apresentadas as motivações que fomentaram a elaboração deste trabalho, os objetivos pretendidos, a metodologia aplicada e um resumo de cada capítulo foi acrescentado para que o leitor possa obter uma visão geral da organização deste texto.
+
+
+\section{Motivação}
+\label{sec:motivacao}
+Softwares atuais largamente utilizados no contexto de datacenters, como RRDtool~\cite{rrdtool} se baseiam em funções agregadoras simples de média, máximo ou mínimo, que podem deturpar a interpretação de seus gráficos.
+
+A motivação deste trabalho é a de solucionar a carência de um mecanismo eficaz para a representação e visualização de séries temporais em um software de monitoração de datacenters, a saber, HOLMES.
+
+O sistema HOLMES conta com uma interface web, onde o usuário final, em geral, um operador de datacenter, tem a capacidade de visualizar o comportamento de um de seus equipamentos ou serviços ao longo do tempo. Para tanto, o usuário faz requisições HTTP a séries temporais via REST\footnote{REST, Representational State Transfer, técnica de engenharia de software para sistemas hipermídia distribuídos. Comumente usada no contexto da World Wide Web.}.
+
+Responder a essas requisições com os dados originais pode provocar alguns problemas, tais como:
+
+\begin{itemize}
+\item Perdas de performance causadas pelo tráfego de milhares de pontos pela rede;
+\item Gráficos com muitos pontos em uma área reduzida pode favorecer representações muito densas, visualmente poluídas e pouco informativas;
+\item Consumo de memória excessivo para o usuário final, dado que os pontos são armazenados no web browser do cliente.
+\end{itemize}
+
+\section{Objetivos}
+\label{sec:objetivos}
+A fim de solucionar os problemas mencionados na seção anterior, os objetivos traçados para a realização deste trabalho incluem:
+\begin{enumerate}
+  \item Implementar um algoritmo que reduza a dimensionalidade de séries temporais e represente visualmente de modo mais fiel possível as séries originais;
+  \item Integração em um software de monitoração de datacenters.
+\end{enumerate}
+
+\section{Metodologia}
+Para fins de execução dos desafios propostos, fez-se necessário o estudo e pesquisa de artigos e livros na área de séries temporais. Fundamentado nesse estudo, optou-se por implementar o algoritmo \textit{Perceptually Important Points} por ser conceitualmente simples e atender de forma satisfatória no domínio aplicado.
+
+Como o algoritmo escolhido apresentava complexidade de tempo $O(n^2)$, questões de performance e desempenho foram trabalhadas e viabilizar a implementação do código-fonte requereu um estudo mais aprofundado sobre a linguagem de programação Clojure. 
+
+Vale ressaltar também que desde o princípio deste projeto foi vislumbrada a implantação do algoritmo em um software de monitoração de datacenters e sua arquitetura e integração com o algoritmo escolhido foi pensada e analisada durante todo o processo.
+
+\section{Organização da Monografia}
+
+\begin{itemize}
+
+\item O capítulo \ref{chap:time-series} contribui com um apanhado sobre o que existe na literatura sobre séries temporais objetivando fundamentar as bases teóricas para o desenvolvimento dos próximos capítulos. Modelos de representação e características de séries temporais são apresentados, além de contextualizações com a realidade de datacenters típicos.
+
+\item O capítulo \ref{chap:pip} apresenta o algoritmo \textit{Perceptually Important Points}, escolhido para implementação neste trabalho. A intuição por trás do método é revelada, junto com seu pseudo-algoritmo, análise de complexidade, limitações e comparações com métodos existentes.
+
+\item O capítulo \ref{chap:implementacao} expõe uma instância do algoritmo \textit{Perceptually Important Points} implementada na linguagem Clojure. Detalhes de implementação, características do código gerado, dificuldades e testes de performance realizados são apresentados.
+
+\item O capítulo \ref{chap:holmes} demonstra como se realizou a integração do algoritmo descrito no capítulo \ref{chap:implementacao} em um software de monitoração de datacenters. Seu propósito e uma visão geral da arquitetura do sistema envolvida na integração do algoritmo é discutida, seguida de um caso de uso de sucesso.
+
+\item Por fim, no capítulo \ref{chap:conclusao} seguem as conclusões sobre o trabalho realizado e propostas de trabalhos futuros são delineadas.
+\end{itemize}

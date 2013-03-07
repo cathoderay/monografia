@@ -1,0 +1,85 @@
+\begin{thebibliography}{10}
+
+\bibitem{rrdtool}
+Rrdtool web site.
+\newblock http://www.mrtg.org/rrdtool/.
+\newblock Acesso em 7 de dezembro de 2010.
+
+\bibitem{metodosmedicina}
+Eduardo Massad, Rene{\'{e}} X.~de Menezes, Paulo S.~P.~Silveira, and Neli
+  R.~S.~Ortega.
+\newblock {\em M{\'{e}}todos Quantitativos em Medicina}, pages 365--387.
+\newblock Manole, 1 edition, 2004.
+
+\bibitem{forecastingeconomic}
+C.~W.~J. Granger and Paul Newbold.
+\newblock {\em Forecasting Economic Time Series (Economic Theory and
+  Mathematical Economics)}.
+\newblock Academic Press, 1977.
+
+\bibitem{germantimeseries}
+Andreas Dietrich and Jens~J. Kr{\"{u}}ger.
+\newblock Long-run sectoral development: Time-series evidence for the german
+  economy.
+\newblock {\em Structural Change and Economic Dynamics}, 21(2):111--122, 2010.
+
+\bibitem{wolframalpha}
+Wolfram alpha web site.
+\newblock http://wolframalpha.com.
+\newblock Acesso em 30 de novembro de 2010.
+
+\bibitem{timeseriesr}
+Robert~H. Shumway and David~S. Stoffer.
+\newblock {\em Time Series Analysis and Its Applications: With R Examples
+  (Springer Texts in Statistics)}.
+\newblock Springer, 2006.
+
+\bibitem{dftandwavelets}
+S.~Allen Broughton and Kurt~M. Bryan.
+\newblock {\em Discrete Fourier Analysis and Wavelets: Applications to Signal
+  and Image Processing}.
+\newblock Wiley-Interscience, 2008.
+
+\bibitem{insightintowavelets}
+K.~P. Soman, N.~G. Resmi, and K.~I. Ramachandran.
+\newblock {\em Insight Into Wavelets : From Theory to Practice}, pages 48--72.
+\newblock Prentice-Hall of India Pvt.Ltd, 2010.
+
+\bibitem{firstpip}
+F.L. Chung, T.C. Fu, R.~Luk, and V.~Ng.
+\newblock Flexible time series pattern matching based on perceptually important
+  points.
+\newblock {\em International Joint Conference on Artificial Intelligence
+  (IJCAI)}, pages 1--7, 2001.
+
+\bibitem{perng2000}
+C.~S. Perng, H.~Wang, S.~R. Zhang, and D.~S. Parker.
+\newblock Landmarks: a new model for similarity-based pattern querying in time
+  series databases.
+\newblock In {\em Proceedings of 16th International Conference on Data
+  Engineering}, pages 33--42, 2000.
+
+\bibitem{fink2003}
+Eugene Fink and Kevin~B. Pratt.
+\newblock Indexing of compressed time series.
+\newblock In {\em Data Mining in Time Series Databases}, pages 51--78. World
+  Scientific, 2003.
+
+\bibitem{Fu2008}
+Tak-chung Fu, Fu-lai Chung, Robert Luk, and Chak-man Ng.
+\newblock Representing financial time series based on data point importance.
+\newblock {\em Engineering Applications of Artificial Intelligence},
+  21(2):277--300, 2008.
+
+\bibitem{programmingclojure}
+Stuart Halloway.
+\newblock {\em Programming Clojure (Pragmatic Programmers)}, page 125.
+\newblock Pragmatic Bookshelf, 2009.
+
+\bibitem{practicalclojure}
+Luke VanderHart and Stuart Sierra.
+\newblock {\em Practical Clojure (Expert{'}s Voice in Open Source)}, pages
+  189--198.
+\newblock Apress, 2010.
+
+\end{thebibliography}

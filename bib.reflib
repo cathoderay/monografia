@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+<manage_target braces="false" utf8="false">file:///home/kaiser/Dropbox/monografia/artigo/references2.bib</manage_target>
+<library_folder monitor="true"></library_folder>
+<taglist>
+</taglist>
+<doclist>
+  <doc>
+    <filename></filename>
+    <relative_filename></relative_filename>
+    <key>Fu2008</key>
+    <notes></notes>
+    <bib_type>Article</bib_type>
+    <bib_doi></bib_doi>
+    <bib_title>Representing financial time series based on data point importance</bib_title>
+    <bib_authors>Fu, Tak-chung and Chung, Fu-lai and Luk, Robert and Ng, Chak-man</bib_authors>
+    <bib_journal>Engineering Applications of Artificial Intelligence</bib_journal>
+    <bib_volume>21</bib_volume>
+    <bib_number>2</bib_number>
+    <bib_pages>277-300</bib_pages>
+    <bib_year>2008</bib_year>
+    <bib_extra key="Doi">DOI: 10.1016/j.engappai.2007.04.009</bib_extra>
+    <bib_extra key="Issn">0952-1976</bib_extra>
+    <bib_extra key="Keywords">Financial time series representation; Multi-resolution visualization; Incremental updating; Dimensionality reduction; Tree data structure; Mobile application</bib_extra>
+    <bib_extra key="Url">http://www.sciencedirect.com/science/article/B6V2M-4P301VH-1/2/c8bf65eaf9b1dad8ea0937d19c80dee8</bib_extra>
+  </doc>
+  <doc>
+    <filename></filename>
+    <relative_filename></relative_filename>
+    <key>perng2000</key>
+    <notes></notes>
+    <bib_type>inproceedings</bib_type>
+    <bib_doi>10.1109/ICDE.2000.839385</bib_doi>
+    <bib_title>Landmarks: a new model for similarity-based pattern querying in time series databases</bib_title>
+    <bib_authors>Perng, C. S. and Wang, H. and Zhang, S. R. and Parker, D. S.</bib_authors>
+    <bib_journal></bib_journal>
+    <bib_volume></bib_volume>
+    <bib_number></bib_number>
+    <bib_pages>33-42</bib_pages>
+    <bib_year>2000</bib_year>
+    <bib_extra key="booktitle">Proceedings of 16th International Conference on Data Engineering</bib_extra>
+    <bib_extra key="Keywords">episodic memory;human intuition;landmark indexing;landmark model;landmark similarity;landmark similarity measures;noise removal;nonuniform amplitude scaling;raw time series;shifting;similarity-based pattern querying;time series databases;time warping;uniform amplitude scaling;uniform bi-scaling;uniform time scaling;database indexing;query processing;temporal databases;time series;</bib_extra>
+  </doc>
+  <doc>
+    <filename></filename>
+    <relative_filename></relative_filename>
+    <key>fink2003</key>
+    <notes></notes>
+    <bib_type>inproceedings</bib_type>
+    <bib_doi></bib_doi>
+    <bib_title>Indexing of Compressed Time Series</bib_title>
+    <bib_authors>Fink, Eugene and Pratt, Kevin B.</bib_authors>
+    <bib_journal></bib_journal>
+    <bib_volume></bib_volume>
+    <bib_number></bib_number>
+    <bib_pages>51-78</bib_pages>
+    <bib_year>2003</bib_year>
+    <bib_extra key="booktitle">Data Mining in Time Series Databases</bib_extra>
+    <bib_extra key="publisher">World Scientific</bib_extra>
+  </doc>
+  <doc>
+    <filename></filename>
+    <relative_filename></relative_filename>
+    <key>germantimeseries</key>
+    <notes></notes>
+    <bib_type>article</bib_type>
+    <bib_doi></bib_doi>
+    <bib_title>Long-run sectoral development: Time-series evidence for the German economy</bib_title>
+    <bib_authors>Dietrich, Andreas and Krüger, Jens J.</bib_authors>
+    <bib_journal>Structural Change and Economic Dynamics</bib_journal>
+    <bib_volume>21</bib_volume>
+    <bib_number>2</bib_number>
+    <bib_pages>111-122</bib_pages>
+    <bib_year>2010</bib_year>
+    <bib_extra key="Abstract">In economic development, long-run structural change among the three main sectors of an economy follows a typical pattern with the primary sector (agriculture, mining) first dominating, followed by the secondary sector (manufacturing) and finally by the tertiary sector (services) in terms of employment and value added. We reconsider the verbal theoretical work of Fourastié and build a simple model encompassing its main features, most notably the macroeconomic influences on the sectoral development. Estimation and analysis with German data for the period 1850-2001 show that this model is quite capable of replicating the empirical facts.</bib_extra>
+    <bib_extra key="Keywords"> Structural change Industrialization Tertiarization</bib_extra>
+    <bib_extra key="Url">http://econpapers.repec.org/RePEc:eee:streco:v:21:y:2010:i:2:p:111-122</bib_extra>
+  </doc>
+  <doc>
+    <filename></filename>
+    <relative_filename></relative_filename>
+    <key>metodosmedicina</key>
+    <notes></notes>
+    <bib_type>inbook</bib_type>
+    <bib_doi></bib_doi>
+    <bib_title>Métodos Quantitativos em Medicina</bib_title>
+    <bib_authors>Massad, Eduardo and X.  de Menezes, Reneé and S.  P.  Silveira, Paulo and R.  S.  Ortega, Neli</bib_authors>
+    <bib_journal></bib_journal>
+    <bib_volume></bib_volume>
+    <bib_number></bib_number>
+    <bib_pages>365-387</bib_pages>
+    <bib_year>2004</bib_year>
+    <bib_extra key="edition">1</bib_extra>
+    <bib_extra key="publisher">Manole</bib_extra>
+  </doc>
+  <doc>
+    <filename></filename>
+    <relative_filename></relative_filename>
+    <key>practicalclojure</key>
+    <notes></notes>
+    <bib_type>inbook</bib_type>
+    <bib_doi></bib_doi>
+    <bib_title>Practical Clojure (Expert’s Voice in Open Source)</bib_title>
+    <bib_authors>VanderHart, Luke and Sierra, Stuart</bib_authors>
+    <bib_journal></bib_journal>
+    <bib_volume></bib_volume>
+    <bib_number></bib_number>
+    <bib_pages>189-198</bib_pages>
+    <bib_year>2010</bib_year>
+    <bib_extra key="Isbn">1430272317</bib_extra>
+    <bib_extra key="publisher">Apress</bib_extra>
+  </doc>
+  <doc>
+    <filename></filename>
+    <relative_filename></relative_filename>
+    <key>programmingclojure</key>
+    <notes></notes>
+    <bib_type>inbook</bib_type>
+    <bib_doi></bib_doi>
+    <bib_title>Programming Clojure (Pragmatic Programmers)</bib_title>
+    <bib_authors>Halloway, Stuart</bib_authors>
+    <bib_journal></bib_journal>
+    <bib_volume></bib_volume>
+    <bib_number></bib_number>
+    <bib_pages>125</bib_pages>
+    <bib_year>2009</bib_year>
+    <bib_extra key="Isbn">1934356336</bib_extra>
+    <bib_extra key="publisher">Pragmatic Bookshelf</bib_extra>
+  </doc>
+  <doc>
+    <filename></filename>
+    <relative_filename></relative_filename>
+    <key>forecastingeconomic</key>
+    <notes></notes>
+    <bib_type>Book</bib_type>
+    <bib_doi></bib_doi>
+    <bib_title>Forecasting Economic Time Series (Economic Theory and Mathematical Economics)</bib_title>
+    <bib_authors>Granger, C. W. J. and Newbold, Paul</bib_authors>
+    <bib_journal></bib_journal>
+    <bib_volume></bib_volume>
+    <bib_number></bib_number>
+    <bib_pages></bib_pages>
+    <bib_year>1977</bib_year>
+    <bib_extra key="Isbn">0122951506</bib_extra>
+    <bib_extra key="Publisher">Academic Press</bib_extra>
+    <bib_extra key="Series"></bib_extra>
+  </doc>
+  <doc>
+    <filename></filename>
+    <relative_filename></relative_filename>
+    <key>insightintowavelets</key>
+    <notes></notes>
+    <bib_type>inbook</bib_type>
+    <bib_doi></bib_doi>
+    <bib_title>Insight Into Wavelets : From Theory to Practice</bib_title>
+    <bib_authors>Soman, K. P. and Resmi, N. G. and Ramachandran, K. I.</bib_authors>
+    <bib_journal></bib_journal>
+    <bib_volume></bib_volume>
+    <bib_number></bib_number>
+    <bib_pages>48-72</bib_pages>
+    <bib_year>2010</bib_year>
+    <bib_extra key="Isbn">8120340531</bib_extra>
+    <bib_extra key="publisher">Prentice-Hall of India Pvt.Ltd</bib_extra>
+  </doc>
+  <doc>
+    <filename></filename>
+    <relative_filename></relative_filename>
+    <key>timeseriesr</key>
+    <notes></notes>
+    <bib_type>Book</bib_type>
+    <bib_doi></bib_doi>
+    <bib_title>Time Series Analysis and Its Applications: With R Examples (Springer Texts in Statistics)</bib_title>
+    <bib_authors>Shumway, Robert H. and Stoffer, David S.</bib_authors>
+    <bib_journal></bib_journal>
+    <bib_volume></bib_volume>
+    <bib_number></bib_number>
+    <bib_pages></bib_pages>
+    <bib_year>2006</bib_year>
+    <bib_extra key="Isbn">0387293175</bib_extra>
+    <bib_extra key="Pages">1-</bib_extra>
+    <bib_extra key="Publisher">Springer</bib_extra>
+    <bib_extra key="Series"></bib_extra>
+  </doc>
+  <doc>
+    <filename></filename>
+    <relative_filename></relative_filename>
+    <key>dftandwavelets</key>
+    <notes></notes>
+    <bib_type>book</bib_type>
+    <bib_doi></bib_doi>
+    <bib_title>Discrete Fourier Analysis and Wavelets: Applications to Signal and Image Processing</bib_title>
+    <bib_authors>Broughton, S. Allen and Bryan, Kurt M.</bib_authors>
+    <bib_journal></bib_journal>
+    <bib_volume></bib_volume>
+    <bib_number></bib_number>
+    <bib_pages></bib_pages>
+    <bib_year>2008</bib_year>
+    <bib_extra key="Isbn">0470294663</bib_extra>
+    <bib_extra key="publisher">Wiley-Interscience</bib_extra>
+    <bib_extra key="Url">http://www.amazon.com/Discrete-Fourier-Analysis-Wavelets-Applications/dp/0470294663%3FSubscriptionId%3D0JYN1NVW651KCA56C102%26tag%3Dtechkie-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0470294663</bib_extra>
+  </doc>
+  <doc>
+    <filename></filename>
+    <relative_filename></relative_filename>
+    <key>rrdtool</key>
+    <notes></notes>
+    <bib_type>booklet</bib_type>
+    <bib_doi></bib_doi>
+    <bib_title>RRDtool web site</bib_title>
+    <bib_authors></bib_authors>
+    <bib_journal></bib_journal>
+    <bib_volume></bib_volume>
+    <bib_number></bib_number>
+    <bib_pages></bib_pages>
+    <bib_year></bib_year>
+    <bib_extra key="howpublished">http://www.mrtg.org/rrdtool/</bib_extra>
+    <bib_extra key="note">Acesso em 7 de dezembro de 2010.</bib_extra>
+  </doc>
+  <doc>
+    <filename></filename>
+    <relative_filename></relative_filename>
+    <key>wolframalpha</key>
+    <notes></notes>
+    <bib_type>booklet</bib_type>
+    <bib_doi></bib_doi>
+    <bib_title>Wolfram Alpha web site</bib_title>
+    <bib_authors></bib_authors>
+    <bib_journal></bib_journal>
+    <bib_volume></bib_volume>
+    <bib_number></bib_number>
+    <bib_pages></bib_pages>
+    <bib_year></bib_year>
+    <bib_extra key="howpublished">http://wolframalpha.com</bib_extra>
+    <bib_extra key="note">Acesso em 30 de novembro de 2010</bib_extra>
+  </doc>
+  <doc>
+    <filename></filename>
+    <relative_filename></relative_filename>
+    <key>firstpip</key>
+    <notes></notes>
+    <bib_type>article</bib_type>
+    <bib_doi></bib_doi>
+    <bib_title>Flexible time series pattern matching based on perceptually important points</bib_title>
+    <bib_authors>Chung, F.L. and Fu, T.C. and Luk, R. and Ng, V.</bib_authors>
+    <bib_journal>International Joint Conference on Artificial Intelligence (IJCAI)</bib_journal>
+    <bib_volume></bib_volume>
+    <bib_number></bib_number>
+    <bib_pages>1-7</bib_pages>
+    <bib_year>2001</bib_year>
+  </doc>
+</doclist>
+</library>
